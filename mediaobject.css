@@ -1,0 +1,43 @@
+body{
+    font-family:arial;
+    color:#f1f1f1;
+}
+.center{
+    width:800px;
+    margin-left:20%
+}
+.background_darkgrey{
+    background-color:#222222;
+    border:1px solid red;
+}
+/**
+*===== Media Object ====== 
+*
+*/
+.media{
+    padding:10px;
+    margin:10px;
+
+}
+
+.media-img{
+    float:left;
+    margin-right:10px;
+}
+
+.media-bd{
+
+}
+/* This might be changed to .heading */ 
+.media-bd-heading{
+    text-decoration:underline;
+    color:#00ff00;
+       
+}
+.clearfix:after{
+    content: " ";
+    font-size:0;
+    clear:both;
+    height:0;
+    display:block;
+}
