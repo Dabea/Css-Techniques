@@ -1,0 +1,71 @@
+body, headder, div,ul, li, footer, html{
+    margin:0px;
+    padding:0px;
+}
+
+
+body{
+    background-color:#222222;
+    
+    
+}
+.body{
+    background-color:#EEEEEE;
+    width:50%;
+    padding:4%;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+/**
+* =====Masthead=====
+*
+*/
+.masthead{
+    background-color:white;
+    height:40px;
+}
+.nav > li{
+    list-style:none;
+    display:inline;
+    margin:0px;
+    background-color:#00BFFF;
+    padding-left:5%;
+     padding-right:5%;
+}
+.nav{
+    margin-left:60%;
+    padding-top:10px;
+    clear:both;
+}
+/**
+*   ======Footer=====
+*   This is the magic of the sticky footer (To avoid scrool bar set html and body height to 99% if you do not have  a <div> in the footer)
+**/
+html, body{
+    height:100%;
+}
+.pagewrap{
+    min-height:100%;   
+    margin:0 auto -90px;
+    
+}
+.push{
+    height:90px;
+}
+
+.footer{
+    background-color:#FF6347;
+    height:90px;
+    
+}
+/**
+* === Footer information centrer ===
+*
+**/
+
+.footerinfo{
+        padding:15px;
+        margin-left: 45%;
+}
