@@ -1,43 +1,102 @@
 /**
-* Resets
+*  ===== Reset =====
 */
-body, div, headder, footer {
-    margin:0px;
-    padding:0px;
+
+ body, ul, header{
+    color:deepskyblue;
+    margin: 0;
+	padding:0;
 }
+/**
+*  ===== The Clearfix =====
+*/
+.clearfix{
+    content: " ";
+    display: block ;
+    clear:both;
+}
+
+/**
+*  ===== Info for all col =====
+*/
 [class*='col-']{
     float:left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-right: 20px;
-    padding-left: 20px;
+    margin:.5%;
+    padding:10px;
 }
-.col-1-2{
-    width:50%;
-}
-.col-2-2{
-    width:50%;
-}
-.background{
-    background-color:#222;
-}
-.grid:after{
-  content: "";
-
-  clear: both;
-}
-.col-1-3{
-    width:25%;
-      -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding-right: 20px;
-    padding-left: 20px;
-}
-.col-23-3{
-    width:75%;
-}
-.img{
+.grid{
     width:100%;
+   
+
+  
+}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+/**
+*  ===== The Base Columns 8 Col =====
+*/
+
+.col-1-8{
+    width:11.5%;
+}
+.col-2-8{
+    width:24%;
+}
+.col-3-8{
+    width:36.5%;
+}
+.col-4-8{
+    width:49%;
+}
+.col-5-8{
+    width:61.5%;
+}
+.col-6-8{
+    width:74%;
+}
+.col-7-8{
+    width:86.5%;
+}
+.col-8-8{
+    width:99%;
+}
+/**
+*  ===== The push =====
+*/
+.push1{
+    margin-left:12.5%
+}
+.push2{
+    margin-left:25%
+}
+.push3{
+    margin-left:37.5%;
+}
+.push4{
+    margin-left:50%;
+}
+.push5{
+    margin-left:62.5%;
+}
+.push6{
+    margin-left:75%;
+}
+.push7{
+    margin-left:87.5%;
+}
+/**
+*  ===== The Gutter =====
+*/
+
+.gut1{
+    padding:-1%;
+    margin:1%;
+}
+.gut5{
+    padding-left:-5%;
+    margin-left:5%;
 }
