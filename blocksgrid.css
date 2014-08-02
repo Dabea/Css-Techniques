@@ -1,0 +1,63 @@
+[class*=block]{
+    border:1px solid tomato;
+}
+ body, ul, header{
+    background-size:100%;
+    color:deepskyblue;
+    margin: 0;
+	padding:0;
+}
+body, html{
+    height:100%;
+}
+.masthead{
+    background-color:#222;
+    height:60px;
+    margin-bottom:50px;
+    
+}
+.pagewrap{
+    
+    min-height:100%;
+    margin:0 auto -90px;
+}
+.footerpsuh{
+    height:90px;
+    
+}
+.footer{
+    background-color:#222222;
+    height:90px;
+}
+
+/**
+* ======block========
+*  These are to Modify the block colours
+*/
+.block_black{
+    background-color:#111;
+}
+.block_blue{
+    background-color:#002fe6;
+}
+.block_green{
+    background-color:#54d632;
+}
+.block_orange{
+    background-color:#FF6600;
+}
+.block_purple{
+    background-color:#551A8B;
+}
+.block_red{
+    background-color:#cc0000;
+}
+.block_yellow{
+    background-color:#ffff32;
+}
+.block_white{
+    background-color:#FFF;
+}
+.block_greay{
+    background-color:#999999;
+}
