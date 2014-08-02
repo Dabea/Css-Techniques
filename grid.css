@@ -1,0 +1,43 @@
+/**
+* Resets
+*/
+body, div, headder, footer {
+    margin:0px;
+    padding:0px;
+}
+[class*='col-']{
+    float:left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.col-1-2{
+    width:50%;
+}
+.col-2-2{
+    width:50%;
+}
+.background{
+    background-color:#222;
+}
+.grid:after{
+  content: "";
+
+  clear: both;
+}
+.col-1-3{
+    width:25%;
+      -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.col-23-3{
+    width:75%;
+}
+.img{
+    width:100%;
+}
