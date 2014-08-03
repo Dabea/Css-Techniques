@@ -79,7 +79,7 @@ html, body{
 .tooltip{
     display:none;
 }
-a:hover+span ,.tooltip:hover{
+.tooltipbox:hover+.tooltip ,.tooltip:hover{
     width:100px;
     display:block;
     background-color:#999999;
