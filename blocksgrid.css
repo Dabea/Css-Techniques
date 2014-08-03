@@ -17,7 +17,7 @@ html, body{
 .masthead{
     background-color:#222;
     height:60px;
-    margin-bottom:50px;
+    margin-bottom:20px;
     
 }
 .hlist{
@@ -78,16 +78,21 @@ html, body{
 */
 .pagewrap{
     
-    min-height:99%;
-    margin:0 auto -100px;
+    min-height:100%;
+    margin:0 auto -215px;
 }
 .footerpush{
-    height:1px;
+    height:215px;
     margin:0px;
     
 }
 .footer{
     background-color:#222222;
-    height:90px;
+    height:215px;
     margin:0px;
+    clear:both;
+}
+.footerinfo{
+    display:block;
+    margin-left:30px;
 }
