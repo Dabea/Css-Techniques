@@ -11,9 +11,14 @@
 *  ===== The Clearfix =====
 */
 .clearfix{
+    display:inline-block;
+}
+.clearfix:after{
     content: " ";
-    display: block ;
+    font-size:0;
+    display:block;
     clear:both;
+    height:0;  
 }
 
 /**
