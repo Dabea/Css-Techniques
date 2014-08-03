@@ -3,7 +3,7 @@ body{
     color:#f1f1f1;
 }
 .center{
-    width:800px;
+    width:60%;
     margin-left:20%
 }
 .background_darkgrey{
@@ -16,7 +16,9 @@ body{
 */
 .media{
     padding:10px;
-    margin:10px;
+    margin:15px;
+    display:block;
+ 
 
 }
 
@@ -34,10 +36,18 @@ body{
     color:#00ff00;
        
 }
+.clearfix{
+    display:inline-block;
+}
 .clearfix:after{
     content: " ";
     font-size:0;
+    display:block;
     clear:both;
     height:0;
-    display:block;
+    
 }
+.reply{
+    margin-left:55px;
+}
+
