@@ -73,6 +73,24 @@ html, body{
     background-color:#222222;
 }
 /**
+* ======Tool Tip========
+*  
+*/
+.tooltip{
+    display:none;
+}
+a:hover+span ,.tooltip:hover{
+    width:100px;
+    display:block;
+    background-color:#999999;
+    border:1px solid tomato;
+    position:absolute;
+}
+.tooltipbox{
+    position:relative;
+}
+
+/**
 * ======Footer========
 *  
 */
