@@ -1,0 +1,116 @@
+[class*=block]{
+    border:1px solid tomato;
+}
+ body, ul, header{
+    background-size:100%;
+    color:deepskyblue;
+    margin: 0;
+	padding:0;
+}
+html, body{
+    height:100%;
+}
+/**
+* ======Masthead========
+*  
+*/
+.masthead{
+    background-color:#222;
+    height:60px;
+    margin-bottom:20px;
+    
+}
+.hlist{
+    
+}
+.hlist li{
+    list-style:none;
+    display:inline;
+}
+.hlist a{
+    color:deepskyblue;
+    font-size:18px;
+    text-decoration:none;
+    margin:10px;
+}
+
+
+/**
+* ======block========
+*  These are to Modify the block colours
+*/
+.block_black{
+    background-color:#111;
+    height:100px;
+}
+.block_blue{
+    background-color:#002fe6;
+    height:100px;
+}
+.block_green{
+    background-color:#54d632;
+    height:100px;
+}
+.block_orange{
+    background-color:#FF6600;
+    height:100px;
+}
+.block_purple{
+    background-color:#551A8B;
+    height:100px;
+}
+.block_red{
+    background-color:#cc0000;
+}
+.block_yellow{
+    background-color:#ffff32;
+    height:100px;
+}
+.block_white{
+    background-color:#FFF;
+}
+.block_greay{
+    background-color:#222222;
+}
+/**
+* ======Tool Tip========
+*  
+*/
+.tooltip{
+    display:none;
+}
+.tooltipbox:hover+.tooltip ,.tooltip:hover{
+    width:100px;
+    display:block;
+    background-color:#999999;
+    border:1px solid tomato;
+    position:absolute;
+}
+.tooltipbox{
+    position:relative;
+}
+
+/**
+* ======Footer========
+*  
+*/
+.pagewrap{
+    
+    min-height:100%;
+    margin:0 auto -215px;
+}
+.footerpush{
+    height:215px;
+    margin:0px;
+    
+}
+.footer{
+    background-color:#222222;
+    height:215px;
+    margin:0px;
+    clear:both;
+}
+.footerinfo{
+    display:block;
+    margin-left:30px;
+}
